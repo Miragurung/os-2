@@ -56,7 +56,7 @@ long display(bool prompt=false)
     cout<<"\t\t ||                                                                                         ||\n";
     cout<<"\t\t=================================================================================================\n";
     cout<<"\t\t ||                          Operating System Scheduling                                    ||\n";
-    cout<<"\t\t ||                                                    Mira gurung                       ||\n";
+    cout<<"\t\t ||                       =======*======*=========*==========* ======                    ||\n";
     cout<<"\t\t ||                                                                                         ||\n";
     cout<<"\t\t ||/*Design a scheduling program to implements a Queue with two levels. Level 1 : Fixed     ||\n";
     cout<<"\t\t ||  priority preemptive Scheduling. Level 2 : Round Robin Scheduling For a Fixed priority  ||\n";
@@ -490,7 +490,7 @@ int main()
 	this function may take upto more then 5 seconds
 	*/
     long n,temp=0,time_q,time=0;
-    cout<<"\t\t\tOperating System Scheduling\n\t\t\t\t\t\t-Garvit Joshi\n";
+
     cout<<"Enter No. Of Processes:";
     cin	>>n;
 	while(n<=0)
