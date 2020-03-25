@@ -8,11 +8,11 @@ long max_arrival=-1,min_arrival=LONG_MAX,warning=1;     //Global Variable
 max_arrival will store the maximim arrival time of a process
 min_arrival will store the minimul arrival time of a process
 warning will store the no. of warning that came in during
-program execution(due to user input and constraints)
+program.
 */
 struct Process
 {
-    long pid=0;                                       //Process ID
+    long pid=0;                                      
     long priority=0;                                  //the Priority 0 is highest priority
     long arrival_time=0;                              //Time At Which Process Came
 	long burst_time=0;                                //The Total Time for which process should run
